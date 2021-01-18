@@ -1,3 +1,8 @@
+-- Promineo Tech Group Project
+-- Week 6 MySQL
+-- John, Kendall & Lisa
+
+
 DROP DATABASE IF EXISTS recording_artists;
 
 CREATE DATABASE IF NOT EXISTS recording_artists;
