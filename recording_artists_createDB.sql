@@ -41,7 +41,7 @@ CREATE TABLE certification (
    PRIMARY KEY (cert_id)
 );
 
-ALTER TABLE certification AUTO_INCREMENT 100;
+ALTER TABLE certification AUTO_INCREMENT 101;
 
 -- load sample data into recording_artists db
 
