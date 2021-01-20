@@ -46,6 +46,8 @@ public class DBConnection {
 				} catch (SQLException e) {
 					System.out.println("\n\nERROR:  Please try again!\n\n");				
 				}
+		    } else {
+		    	success = true;
 		    }
 		} while (success == false);
 		
