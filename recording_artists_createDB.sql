@@ -37,6 +37,7 @@ CREATE TABLE certification (
    cert_id			INT			NOT NULL	AUTO_INCREMENT,	
    album_id     	INT			NOT NULL,			
    cert_status		ENUM('Diamond', 'Platinum', 'Multi-Platinum', 'Gold'),
+   cert_date		DATE,
    FOREIGN KEY (album_id) REFERENCES album (album_id),
    PRIMARY KEY (cert_id)
 );
